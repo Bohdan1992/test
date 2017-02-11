@@ -1,0 +1,23 @@
+
+
+.iq{
+    border: 5px solid black;
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    transform: translateX(200%);
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
